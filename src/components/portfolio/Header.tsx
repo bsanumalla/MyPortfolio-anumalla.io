@@ -38,14 +38,16 @@ const Header = () => {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" size="sm" asChild>
-              <a href="https://github.com/bhavanishankera7" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/bsanumalla" target="_blank" rel="noopener noreferrer">
                 <Github className="h-4 w-4 mr-2" />
                 GitHub
               </a>
             </Button>
-            <Button size="sm" className="glow-effect">
-              <FileText className="h-4 w-4 mr-2" />
-              Resume
+            <Button size="sm" className="glow-effect" asChild>
+              <a href="https://bhavanishankeranumalla.tiiny.site/" target="_blank" rel="noopener noreferrer">
+                <FileText className="h-4 w-4 mr-2" />
+                Resume
+              </a>
             </Button>
           </div>
 
@@ -76,14 +78,16 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm" asChild>
-                  <a href="https://github.com/bhavanishankera7" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/bsanumalla" target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4 mr-2" />
                     GitHub
                   </a>
                 </Button>
-                <Button size="sm" className="glow-effect">
-                  <FileText className="h-4 w-4 mr-2" />
-                  Resume
+                <Button size="sm" className="glow-effect" asChild>
+                  <a href="https://bhavanishankeranumalla.tiiny.site/" target="_blank" rel="noopener noreferrer">
+                    <FileText className="h-4 w-4 mr-2" />
+                    Resume
+                  </a>
                 </Button>
               </div>
             </div>

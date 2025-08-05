@@ -32,14 +32,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "bhavanishanker.anumalla@example.com",
-      href: "mailto:bhavanishanker.anumalla@example.com"
+      value: "bhavanishankeranumalla2022@gmail.com",
+      href: "mailto:bhavanishankeranumalla2022@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+1 (940) 613-4466",
+      href: "tel:+19406134466"
     },
     {
       icon: MapPin,
@@ -50,14 +50,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "bhavanishankera7",
-      href: "https://github.com/bhavanishankera7"
+      value: "bsanumalla",
+      href: "https://github.com/bsanumalla"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "Coming Soon",
-      href: null
+      value: "bhavanishankeranumalla",
+      href: "https://www.linkedin.com/in/bhavanishankeranumalla"
     }
   ];
 

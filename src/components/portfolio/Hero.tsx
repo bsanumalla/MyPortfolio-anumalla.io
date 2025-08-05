@@ -31,7 +31,7 @@ const Hero = () => {
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="https://github.com/bhavanishankera7" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/bsanumalla" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   GitHub
                 </a>
@@ -43,12 +43,11 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary to-accent p-1">
                 <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
-                  <div className="w-72 h-72 rounded-full bg-muted flex items-center justify-center text-muted-foreground">
-                    {/* Placeholder for profile image */}
-                    <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                    </svg>
-                  </div>
+                  <img 
+                    src="/lovable-uploads/037b5458-4a6f-4b35-9b54-8e4ad24608d9.png" 
+                    alt="Bhavani Shanker Anumalla - Software Engineer"
+                    className="w-72 h-72 rounded-full object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent opacity-20 blur-xl"></div>

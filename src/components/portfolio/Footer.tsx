@@ -17,14 +17,14 @@ const Footer = () => {
 
             <div className="flex items-center gap-6">
               <a
-                href="mailto:bhavanishanker.anumalla@example.com"
+                href="mailto:bhavanishankeranumalla2022@gmail.com"
                 className="p-3 bg-card rounded-lg border border-border/50 smooth-transition hover:border-primary/30 hover:scale-110"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5 text-primary" />
               </a>
               <a
-                href="https://github.com/bhavanishankera7"
+                href="https://github.com/bsanumalla"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-card rounded-lg border border-border/50 smooth-transition hover:border-primary/30 hover:scale-110"
