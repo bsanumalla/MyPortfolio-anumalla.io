@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, User } from "lucide-react";
+import { ArrowRight, Github } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -43,9 +43,11 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary to-accent p-1">
                 <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
-                  <div className="w-72 h-72 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                    <User className="w-32 h-32 text-muted-foreground" />
-                  </div>
+                  <img 
+                    src="/profile-photo.png" 
+                    alt="Bhavani Shanker Anumalla - Software Engineer"
+                    className="w-72 h-72 rounded-full object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent opacity-20 blur-xl"></div>
