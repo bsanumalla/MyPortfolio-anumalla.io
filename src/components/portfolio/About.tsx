@@ -21,7 +21,7 @@ const About = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-4">Professional Background</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Bhavani Shanker Anumalla is a Software Engineer with 4+ years of experience 
+                  Bhavani Shanker Anumalla is a Software Engineer with 5+ years of experience 
                   building scalable enterprise systems and distributed microservices. He currently 
                   serves as Software Engineer II at Patagonia Health, where he leads high-impact 
                   initiatives like 50TB+ data migrations and CI/CD optimizations. Bhavani is 
