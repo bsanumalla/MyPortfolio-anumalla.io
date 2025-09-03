@@ -19,14 +19,16 @@ const About = () => {
                 <User className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4">Professional Background</h3>
+                <h3 className="text-xl font-semibold mb-4">Professional Summary</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Bhavani Shanker Anumalla is a Software Engineer with 5+ years of experience 
-                  building scalable enterprise systems and distributed microservices. He currently 
-                  serves as Software Engineer II at Patagonia Health, where he leads high-impact 
-                  initiatives like 50TB+ data migrations and CI/CD optimizations. Bhavani is 
-                  passionate about building robust, maintainable systems that drive measurable 
-                  business outcomes.
+                  I am a results-driven software development engineer with 4+ years of experience designing distributed systems, 
+                  building high-performance query engines, and delivering intuitive data visualization platforms. My expertise spans 
+                  Java, Scala, Python, React, and Apache Spark, with proven success in reducing query latency by 60%+, scaling systems 
+                  to millions of data points, and sustaining 99.9%+ uptime. I thrive in fast-paced product environments, leveraging 
+                  AI-assisted development to cut delivery timelines by over 40% while maintaining enterprise-grade quality. Recognized 
+                  for combining performance engineering with human-centered design, I create solutions that drive adoption, improve 
+                  accessibility, and empower thousands of daily users. My goal is to contribute to product growth at scale by aligning 
+                  deep technical innovation with measurable business outcomes.
                 </p>
               </div>
             </div>
@@ -43,20 +45,24 @@ const About = () => {
                   <Card className="card-gradient border border-border/50 smooth-transition hover:border-primary/30">
                     <CardContent className="p-6">
                       <div className="flex justify-between items-start mb-2">
-                        <h4 className="font-semibold">M.S. in Computer Science</h4>
+                        <h4 className="font-semibold">M.S. Information Technology</h4>
                         <span className="text-sm text-muted-foreground">May 2024</span>
                       </div>
                       <p className="text-muted-foreground">University of the Cumberlands</p>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Relevant Coursework: Distributed Systems, Algorithms & Data Structures, Human-Computer Interaction, 
+                        Query Optimization, Performance Engineering
+                      </p>
                     </CardContent>
                   </Card>
 
                   <Card className="card-gradient border border-border/50 smooth-transition hover:border-primary/30">
                     <CardContent className="p-6">
                       <div className="flex justify-between items-start mb-2">
-                        <h4 className="font-semibold">B.Tech in Information Technology</h4>
-                        <span className="text-sm text-muted-foreground">June 2016</span>
+                        <h4 className="font-semibold">B.Tech. Information Technology</h4>
+                        <span className="text-sm text-muted-foreground">May 2018</span>
                       </div>
-                      <p className="text-muted-foreground">JB Institute of Engineering and Technology</p>
+                      <p className="text-muted-foreground">Jawaharlal Nehru Technological University</p>
                     </CardContent>
                   </Card>
                 </div>

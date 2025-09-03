@@ -7,52 +7,60 @@ import {
   Cloud, 
   Database, 
   Settings,
-  GitBranch
+  GitBranch,
+  Brain,
+  Zap
 } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages",
+      title: "Languages & Frameworks",
       icon: Code,
-      skills: ["Java", "JavaScript/TypeScript", "Python", "SQL", "C++", "Rust"],
+      skills: ["Java", "Scala", "Python", "C++", "JavaScript", "React", "Spring Boot"],
       color: "text-primary"
     },
     {
-      title: "Frontend",
+      title: "Frontend & UX",
       icon: Monitor,
-      skills: ["React", "AngularJS", "HTML5", "CSS3", "Redux"],
+      skills: ["React", "Data Visualization", "Human-Centered Design", "UI/UX Design", "WCAG 2.1 Accessibility"],
       color: "text-accent"
     },
     {
-      title: "Backend",
+      title: "Backend & Query Engines",
       icon: Server,
-      skills: ["Spring Boot", "Node.js", "REST APIs", "Microservices"],
+      skills: ["Query Compilation", "Multi-query Optimization", "Streaming Evaluation", "REST APIs"],
       color: "text-primary"
     },
     {
-      title: "Cloud",
-      icon: Cloud,
-      skills: ["AWS (EC2, Lambda, S3)", "Azure (CosmosDB, DevOps)", "CloudFormation"],
-      color: "text-accent"
-    },
-    {
-      title: "Databases",
+      title: "Distributed Systems & Data",
       icon: Database,
-      skills: ["PostgreSQL", "Oracle", "MongoDB", "CosmosDB", "ElasticSearch"],
-      color: "text-primary"
-    },
-    {
-      title: "DevOps",
-      icon: Settings,
-      skills: ["Docker", "Kubernetes", "Jenkins", "Terraform", "Git"],
+      skills: ["Apache Spark", "Distributed Processing", "Incremental Evaluation"],
       color: "text-accent"
     },
     {
-      title: "Patterns",
-      icon: GitBranch,
-      skills: ["Event Streaming (Kafka/RabbitMQ)", "TDD", "Distributed Systems"],
+      title: "Cloud & Platforms",
+      icon: Cloud,
+      skills: ["AWS (EC2, S3, Lambda, RDS)", "Docker", "Kubernetes"],
       color: "text-primary"
+    },
+    {
+      title: "AI & Productivity Tools",
+      icon: Brain,
+      skills: ["Cursor", "Claude", "ChatGPT", "AI-assisted Development", "AI Code Review", "Pair Programming"],
+      color: "text-accent"
+    },
+    {
+      title: "Development Practices",
+      icon: GitBranch,
+      skills: ["Agile/Scrum", "Test-Driven Development (TDD)", "CI/CD", "On-call Rotation", "Cross-functional Collaboration"],
+      color: "text-primary"
+    },
+    {
+      title: "Systems & Performance",
+      icon: Zap,
+      skills: ["Distributed Query Engines", "Debugging", "Performance Engineering", "High-availability Systems", "Linux"],
+      color: "text-accent"
     }
   ];
 
@@ -60,13 +68,13 @@ const Skills = () => {
     <section id="skills" className="section-padding bg-card/30">
       <div className="container-max">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Skills & Technologies</h2>
+          <h2 className="text-4xl font-bold mb-4">Technical Skills</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern, scalable applications.
+            A comprehensive toolkit for building high-performance distributed systems and data platforms.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {skillCategories.map((category, index) => {
             const IconComponent = category.icon;
             return (
@@ -80,7 +88,7 @@ const Skills = () => {
                       <IconComponent className={`h-8 w-8 ${category.color}`} />
                     </div>
                   </div>
-                  <CardTitle className="text-xl">{category.title}</CardTitle>
+                  <CardTitle className="text-lg leading-tight">{category.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">

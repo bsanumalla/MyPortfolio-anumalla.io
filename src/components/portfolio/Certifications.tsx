@@ -6,22 +6,25 @@ import { Award, ExternalLink } from "lucide-react";
 const Certifications = () => {
   const certifications = [
     {
-      title: "AWS Certified Professional - DevOps Engineer",
+      title: "AWS Certified DevOps Engineer – Professional",
       issuer: "Amazon Web Services",
       level: "Professional",
-      color: "text-orange-400"
+      color: "text-orange-400",
+      // badge: "/src/assets/aws-devops-professional.png" - Will add when images are accessible
     },
     {
-      title: "AWS Certified Associate - Developer",
+      title: "AWS Certified Developer – Associate",
       issuer: "Amazon Web Services", 
       level: "Associate",
-      color: "text-blue-400"
+      color: "text-blue-400",
+      // badge: "/src/assets/aws-developer-associate.png"
     },
     {
       title: "AWS Certified Data Engineer – Associate",
       issuer: "Amazon Web Services",
       level: "Associate", 
-      color: "text-green-400"
+      color: "text-green-400",
+      // badge: "/src/assets/aws-data-engineer-associate.png"
     }
   ];
 
@@ -31,7 +34,7 @@ const Certifications = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Certifications</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Professional cloud certifications demonstrating expertise in AWS technologies.
+            Professional cloud certifications demonstrating expertise in AWS technologies and distributed systems.
           </p>
         </div>
 
@@ -67,7 +70,7 @@ const Certifications = () => {
               <Award className="h-16 w-16 text-primary mx-auto" />
               <h3 className="text-2xl font-semibold">Verify Certifications</h3>
               <p className="text-muted-foreground">
-                View and verify all my professional certifications on Credly.
+                View and verify all my professional AWS certifications on Credly.
               </p>
               <Button size="lg" className="glow-effect" asChild>
                 <a 
@@ -76,7 +79,7 @@ const Certifications = () => {
                   rel="noopener noreferrer"
                 >
                   <ExternalLink className="mr-2 h-5 w-5" />
-                  View on Credly
+                  View Badge
                 </a>
               </Button>
             </div>
