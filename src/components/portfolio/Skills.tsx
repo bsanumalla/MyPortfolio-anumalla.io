@@ -17,23 +17,23 @@ const Skills = () => {
     {
       title: "Languages & Frameworks",
       icon: Code,
-      skills: ["Java", "Scala", "Python", "C++", "JavaScript", "React", "Spring Boot"],
+      skills: ["C++", "Go", "Java", "JavaScript", "Python", "React", "Scala", "Spring Boot", "TypeScript"],
       color: "text-primary"
     },
     {
       title: "Frontend & UX",
       icon: Monitor,
-      skills: ["React", "Data Visualization", "Human-Centered Design", "UI/UX Design", "WCAG 2.1 Accessibility"],
+      skills: ["Data Visualization", "Human-Centered Design", "React", "UI/UX Design", "WCAG 2.1 Accessibility"],
       color: "text-accent"
     },
     {
       title: "Backend & Query Engines",
       icon: Server,
-      skills: ["Query Compilation", "Multi-query Optimization", "Streaming Evaluation", "REST APIs"],
+      skills: ["Query Compilation", "Multi-query Optimization", "REST APIs", "Streaming Evaluation", "SQL", "Postgres"],
       color: "text-primary"
     },
     {
-      title: "Distributed Systems & Data",
+      title: "Distributed Systems & Data Engineering",
       icon: Database,
       skills: ["Apache Spark", "Distributed Processing", "Incremental Evaluation"],
       color: "text-accent"
@@ -41,26 +41,32 @@ const Skills = () => {
     {
       title: "Cloud & Platforms",
       icon: Cloud,
-      skills: ["AWS (EC2, S3, Lambda, RDS)", "Docker", "Kubernetes"],
+      skills: ["AWS (EC2, S3, Lambda, RDS)", "CDK", "Docker", "Kubernetes"],
       color: "text-primary"
     },
     {
       title: "AI & Productivity Tools",
       icon: Brain,
-      skills: ["Cursor", "Claude", "ChatGPT", "AI-assisted Development", "AI Code Review", "Pair Programming"],
+      skills: ["AI Code Review", "AI-assisted Development", "ChatGPT", "Claude", "Cursor", "Pair Programming"],
       color: "text-accent"
     },
     {
       title: "Development Practices",
       icon: GitBranch,
-      skills: ["Agile/Scrum", "Test-Driven Development (TDD)", "CI/CD", "On-call Rotation", "Cross-functional Collaboration"],
+      skills: ["Agile/Scrum", "CI/CD", "Cross-functional Collaboration", "On-call Rotation", "Test-Driven Development (TDD)"],
       color: "text-primary"
     },
     {
       title: "Systems & Performance",
       icon: Zap,
-      skills: ["Distributed Query Engines", "Debugging", "Performance Engineering", "High-availability Systems", "Linux"],
+      skills: ["Debugging", "Distributed Query Engines", "High-availability Systems", "Linux", "Performance Engineering"],
       color: "text-accent"
+    },
+    {
+      title: "E-commerce & Tools",
+      icon: Settings,
+      skills: ["Google Merchant Center", "Google Tags", "Node.js", "PDF Kit", "Shopify", "SST"],
+      color: "text-primary"
     }
   ];
 

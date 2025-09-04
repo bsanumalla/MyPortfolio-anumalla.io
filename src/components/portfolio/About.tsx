@@ -49,6 +49,7 @@ const About = () => {
                         <span className="text-sm text-muted-foreground">May 2024</span>
                       </div>
                       <p className="text-muted-foreground">University of the Cumberlands</p>
+                      <p className="text-xs text-muted-foreground mt-1">Williamsburg, KY</p>
                       <p className="text-xs text-muted-foreground mt-1">
                         Relevant Coursework: Distributed Systems, Algorithms & Data Structures, Human-Computer Interaction, 
                         Query Optimization, Performance Engineering
@@ -63,6 +64,7 @@ const About = () => {
                         <span className="text-sm text-muted-foreground">May 2018</span>
                       </div>
                       <p className="text-muted-foreground">Jawaharlal Nehru Technological University</p>
+                      <p className="text-xs text-muted-foreground mt-1">Telangana, IN</p>
                     </CardContent>
                   </Card>
                 </div>

@@ -7,11 +7,11 @@ const Experience = () => {
     {
       title: "Software Development Engineer II",
       company: "Patagonia Health",
-      period: "Jul 2024 – May 2025",
+      period: "July 2024 – Aug 2025",
       location: "Cary, NC",
       achievements: [
-        "Designed React/JavaScript dashboards adopted by 5.2K+ healthcare professionals, enabling real-time analytics and self-service insights.",
-        "Built a Java/Scala query engine with novel compilation algorithms, cutting segmentation latency to under 97ms across complex workloads.", 
+        "Designed React dashboards adopted by 5.2K+ healthcare professionals, enabling real-time analytics and self-service insights.",
+        "Engineered a Java/Scala query engine with novel compilation algorithms, cutting segmentation latency to under 97ms across complex workloads.", 
         "Accelerated feature delivery by 41% through AI-assisted workflows (Cursor, Claude, ChatGPT) with automated review, documentation, and refactoring.",
         "Optimized algorithm runtimes by 63% via AI-powered query compilation, directly improving healthcare data accessibility.",
         "Established a comprehensive testing framework (unit, integration, e2e), sustaining 99.98% production uptime.",
@@ -27,9 +27,9 @@ const Experience = () => {
       period: "Sep 2020 – Aug 2022",
       location: "Hyderabad, IN",
       achievements: [
-        "Designed scalable REST APIs and React-based analytics interfaces serving thousands of enterprise users with high reliability.",
-        "Built Spark-based distributed pipelines, improving computation efficiency by 37% through optimized query compilation.",
-        "Developed containerized microservices under evolving requirements, accelerating deployment timelines by 29%.",
+        "Designed scalable REST APIs and React-based analytics interfaces using Node.js, serving thousands of enterprise users with high reliability.",
+        "Built Spark-based distributed pipelines, improving computation efficiency by 37% through optimized SQL query compilation.",
+        "Developed containerized microservices using Docker under evolving requirements, accelerating deployment timelines by 29%.",
         "Created streaming evaluation engines for real-time queries, ensuring consistent performance in distributed environments.",
         "Automated testing via TDD and CI/CD, sustaining 99.9% uptime in production systems.",
         "Coordinated with product teams to align engineering solutions with customer requirements, reducing backlog items by 15%.",
@@ -39,17 +39,32 @@ const Experience = () => {
       current: false
     },
     {
-      title: "Software Development Engineer",
+      title: "Software Engineer",
       company: "Cognizant Technologies",
       period: "Dec 2019 – Sep 2020",
       location: "Hyderabad, IN",
       achievements: [
-        "Designed scalable REST APIs and React-based analytics interfaces serving thousands of enterprise users with high reliability.",
-        "Built Spark-based distributed data pipelines, improving computation efficiency by 37% through optimized query compilation.",
-        "Developed containerized microservices under evolving requirements, accelerating deployment timelines by 29%.",
+        "Designed scalable REST APIs and React-based analytics interfaces using Node.js, serving thousands of enterprise users with high reliability.",
+        "Built Spark-based distributed data pipelines, improving computation efficiency by 37% through optimized SQL query compilation.",
+        "Developed containerized microservices using Docker under evolving requirements, accelerating deployment timelines by 29%.",
         "Created real-time streaming evaluation engines for distributed queries, ensuring performance consistency at scale.",
         "Automated testing via TDD and CI/CD, sustaining 99.9% production uptime in enterprise systems.",
         "Strengthened Cognizant's analytics offerings through scalable, resilient distributed data solutions."
+      ],
+      current: false
+    },
+    {
+      title: "Software Engineer",
+      company: "Concentrix",
+      period: "Sep 2018 – Nov 2019",
+      location: "Hyderabad, IN",
+      achievements: [
+        "Developed and deployed full-stack web applications using Java, Spring Boot, and React, improving workflow automation and reducing manual effort by 27%.",
+        "Built REST APIs integrated with relational databases, enabling real-time data access for 3.4K+ users across enterprise platforms.",
+        "Optimized SQL queries and backend services, cutting response times by 19% and enhancing overall application performance.",
+        "Collaborated with designers to implement responsive, user-friendly UIs, improving usability scores and reducing support tickets.",
+        "Automated testing with JUnit and Selenium, raising release quality and reducing production defects by 22%.",
+        "Supported deployments in Agile sprints, ensuring consistent delivery of features aligned with client business goals."
       ],
       current: false
     }

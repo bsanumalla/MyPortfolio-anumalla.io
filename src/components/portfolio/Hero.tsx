@@ -31,6 +31,11 @@ const Hero = () => {
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
+                <a href="https://bhavanishankeranumalla.tiiny.site/" target="_blank" rel="noopener noreferrer">
+                  View Resume
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
                 <a href="https://github.com/bsanumalla" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   GitHub

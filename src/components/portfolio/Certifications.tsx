@@ -6,25 +6,25 @@ import { Award, ExternalLink } from "lucide-react";
 const Certifications = () => {
   const certifications = [
     {
-      title: "AWS Certified DevOps Engineer – Professional",
+      title: "AWS Certified Data Engineer – Associate",
       issuer: "Amazon Web Services",
-      level: "Professional",
-      color: "text-orange-400",
-      // badge: "/src/assets/aws-devops-professional.png" - Will add when images are accessible
+      level: "Associate", 
+      color: "text-green-400",
+      verificationLink: "https://www.credly.com/users/bhavani-shanker-anumalla/badges#credly"
     },
     {
       title: "AWS Certified Developer – Associate",
       issuer: "Amazon Web Services", 
       level: "Associate",
       color: "text-blue-400",
-      // badge: "/src/assets/aws-developer-associate.png"
+      verificationLink: "https://www.credly.com/users/bhavani-shanker-anumalla/badges#credly"
     },
     {
-      title: "AWS Certified Data Engineer – Associate",
+      title: "AWS Certified DevOps Engineer – Professional",
       issuer: "Amazon Web Services",
-      level: "Associate", 
-      color: "text-green-400",
-      // badge: "/src/assets/aws-data-engineer-associate.png"
+      level: "Professional",
+      color: "text-orange-400",
+      verificationLink: "https://www.credly.com/users/bhavani-shanker-anumalla/badges#credly"
     }
   ];
 
